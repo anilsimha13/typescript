@@ -1,10 +1,12 @@
 # Typescript
 
+## Day-1
+
 1. ### What is Typescript?
 
 - Typescript is the superset of Javascript
-- It comiles into regular Javascript, so it runs anywhere Javascript does
-- Field ends with .ts
+- It compiles into regular Javascript, so it runs anywhere Javascript does
+- File ends with .ts
 
 2. ### How Typescript works?
 
@@ -29,3 +31,27 @@
 - Typescript executor
   - Run it on root as admin `npm install -g tsx` to install
   - tsx `fileName.ts` > Runs the ts file without creating the js file
+
+
+## Day-2
+
+### Comments
+- Signle Line (//sample code) > cmd + /
+- Multi Line (/* sample story */) > shift+alt(option)+a
+
+
+### Variables
+- Container which holds the Value/data
+- var, let and const
+- syntax > ex:`let age:number = 30`
+- Scope
+  - Functional
+  - Block
+
+| Keyword | Scope         | Redeclaration | Reassignment | Hoisting | Usage Recommendation |
+|---------|--------------|---------------|--------------|----------|---------------------|
+| var     | Function     | Yes           | Yes          | Yes      | Avoid in modern code |
+| let     | Block        | No            | Yes          | No       | Use if value changes |
+| const   | Block        | No            | No           | No       | Use by default       |
+
+
