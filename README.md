@@ -54,4 +54,29 @@
 | let     | Block        | No            | Yes          | No       | Use if value changes |
 | const   | Block        | No            | No           | No       | Use by default       |
 
+## Day-3
+- Javascript is the Dynamically typed language
+- Typescript is the Statically typed language
 
+### Data Types
+1. Premitive Datatypes
+    - Can store only one single value
+  a. Number
+  b. String
+  c. Boolean
+  d. Null
+  e. undefined
+  f. Any
+  g. Union
+  h. Void
+2. Non-Premitive Datatypes
+  - Can store group of Objects
+  a. Array
+  b. Class
+  c. Function
+  d. Interface, etc..
+
+`let age:number = 32`
+1. Type/Data Type
+2. Annotations
+3. Type Inference
