@@ -95,3 +95,13 @@
 - Logical
 - Increment/Decrement
 - Conditional(Ternary)
+
+## Day-5
+
+### Statements
+
+- Conditional Statements
+  - if
+  - if...else
+  - if...else if...else
+  - switch
