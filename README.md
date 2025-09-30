@@ -105,3 +105,62 @@
   - if...else
   - if...else if...else
   - switch
+
+## Day-6
+
+### Loops
+
+- While
+
+```javascript
+console.log("1 to 10");
+let count = 1;
+
+while (count < 11) {
+  console.log("Count is: " + count);
+  count++;
+}
+```
+
+- Do-while
+
+```javascript
+console.log("5 to 1");
+let j = 5;
+do {
+  console.log(j);
+  j--;
+} while (j >= 1);
+```
+
+- For Loop
+
+```javascript
+console.log("1 to 10");
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+```
+
+- Break and Continue
+
+```javascript
+console.log("1 to 10 but skip 5");
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) {
+    continue;
+  }
+  console.log(i);
+}
+```
+
+```javascript
+console.log("1 to 10 but stop at 5");
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) {
+    break;
+  }
+  console.log(i);
+}
+```
