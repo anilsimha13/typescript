@@ -164,3 +164,25 @@ for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
 ```
+
+## Day-7
+
+### Functions
+
+- Named Function
+  - Arrow/Lambda function
+  - Default Parameters
+  - Optional Parameters
+  - Rest Parameter
+
+```javascript
+function addGivenNumbers(...num: number[]): void {
+  let i = 0;
+  let sum: number = 0;
+  for (let i = 0; i < num.length; i++) {
+    sum = sum + num[i];
+  }
+  console.log(sum);
+}
+addGivenNumbers(1, 3, 43, 24, 56, 7, 8, 76, 2);
+```
