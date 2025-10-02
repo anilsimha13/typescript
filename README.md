@@ -186,3 +186,12 @@ function addGivenNumbers(...num: number[]): void {
 }
 addGivenNumbers(1, 3, 43, 24, 56, 7, 8, 76, 2);
 ```
+
+## Day-8
+
+### Functions - Part-2
+
+- Callback Function
+  - Function as a parameter to another function
+- Function overloading
+  - Multiple functions with same name but different parameters and/or return type
