@@ -194,4 +194,56 @@ addGivenNumbers(1, 3, 43, 24, 56, 7, 8, 76, 2);
 - Callback Function
   - Function as a parameter to another function
 - Function overloading
+
   - Multiple functions with same name but different parameters and/or return type
+
+  ## Day-9
+
+  ### Arrays
+
+  - Arrays (_Collections_) - Dynamic
+    - For...in
+    - For...of
+    - With Functions
+  - Tuple - Fixed size
+
+## Day-9
+
+- push()
+
+  - Adds one or more elements to the end of an array and returns the new length of the array.
+
+- pop()
+
+  - Removes the last element from an array and returns that element. This method changes the length of the array.
+
+- shift()
+
+  - Removes the first element from an array and returns that element. This method changes the length of the array.
+
+- unshift()
+
+  - Adds one or more elements to the beginning of an array and returns the new length of the array.
+
+- concat()
+
+  - Merges two or more arrays. This method does not change the existing arrays, but instead returns a new array.
+
+- slice()
+
+  - Returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
+
+- splice()
+
+  - Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+
+- IndexOf()
+
+  - Returns the first index at which a given element can be found in the array, or -1 if it is not present.
+
+- includes()
+
+  - Determines whether an array includes a certain value among its entries, returning true or false as appropriate.
+
+- toString()
+  - Returns a string representing the specified array and its elements.
