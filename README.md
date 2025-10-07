@@ -207,7 +207,7 @@ addGivenNumbers(1, 3, 43, 24, 56, 7, 8, 76, 2);
     - With Functions
   - Tuple - Fixed size
 
-## Day-9
+## Day-10
 
 - push()
 
@@ -247,3 +247,55 @@ addGivenNumbers(1, 3, 43, 24, 56, 7, 8, 76, 2);
 
 - toString()
   - Returns a string representing the specified array and its elements.
+
+## Day-11
+
+- ForEach()
+
+  - Executes a provided function once for each array element.
+  - `array.forEach(function(currentValue, index, array), {})`
+  - currentValue - The current element being processed in the array.
+  - index (Optional) - The index of the current element being processed in the array.
+  - array (Optional) - The array that forEach() is being applied to.
+
+- Map()
+
+  - Creates a new array populated with the results of calling a provided function on every element in the calling array.
+  - `array.map(function(currentValue, index, array), thisValue)`
+  - currentValue - The current element being processed in the array.
+  - index (Optional) - The index of the current element being processed in the array.
+  - array (Optional) - The array that map() is being applied to.
+  - thisValue (Optional) - Value to use as this when executing callback.
+
+- Filter()
+
+  - Creates a new array with all elements that pass the test implemented by the provided function.
+  - `array.filter(function(currentValue, index, array), thisValue)`
+  - currentValue - The current element being processed in the array.
+  - index (Optional) - The index of the current element being processed in the array.
+  - array (Optional) - The array that filter() is being applied to.
+  - thisValue (Optional) - Value to use as this when executing callback.
+
+- reduce()
+- Executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+- `array.reduce(function(accumulator, currentValue, index, array), initialValue)`
+- accumulator - It accumulates the callback's return values; it is the accumulated value previously returned in the last invocation of the callback, or initialValue, if supplied (see below).
+- currentValue - The current element being processed in the array.
+- index (Optional) - The index of the current element being processed in the array.
+- array (Optional) - The array that reduce() is being applied to.
+- initialValue (Optional) - A value to use as the first argument to the first call of the callback. If no initialValue is supplied, the first element in the array will be used and skipped. Calling reduce() on an empty array without an initialValue will throw a TypeError.
+
+- some()
+  - Tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.
+  - `array.some(function(currentValue, index, array), thisValue)`
+  - currentValue - The current element being processed in the array.
+  - index (Optional) - The index of the current element being processed in the array.
+  - array (Optional) - The array that some() is being applied to.
+  - thisValue (Optional) - Value to use as this when executing callback.
+- every()
+  - Tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+  - `array.every(function(currentValue, index, array), thisValue)`
+  - currentValue - The current element being processed in the array.
+  - index (Optional) - The index of the current element being processed in the array.
+  - array (Optional) - The array that every() is being applied to.
+  - thisValue (Optional) - Value to use as this when executing callback.
