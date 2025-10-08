@@ -299,3 +299,17 @@ addGivenNumbers(1, 3, 43, 24, 56, 7, 8, 76, 2);
   - index (Optional) - The index of the current element being processed in the array.
   - array (Optional) - The array that every() is being applied to.
   - thisValue (Optional) - Value to use as this when executing callback.
+
+## Day-12
+
+- Strings
+  - Properties and Methods
+    - length
+    - charAt()
+    - concat()
+    - indexOf()
+    - replace()
+    - split()
+    - toLowerCase()
+    - toUpperCase()
+    - trim()
