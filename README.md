@@ -313,3 +313,14 @@ addGivenNumbers(1, 3, 43, 24, 56, 7, 8, 76, 2);
     - toLowerCase()
     - toUpperCase()
     - trim()
+
+## Day-13
+
+### Objects
+
+- Object contains properties and behaviors
+- Object contains variables and functions
+- Object is collection of key-value pairs
+
+- Inline Type object
+- Class
