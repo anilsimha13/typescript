@@ -324,3 +324,65 @@ addGivenNumbers(1, 3, 43, 24, 56, 7, 8, 76, 2);
 
 - Inline Type object
 - Class
+
+## Day-14
+
+### Classes
+
+- Readonly
+- Can be initialized only once and cannot be modified
+- Constructor
+  - Special method to initialize the object
+  - Automatically called when the object is created
+- this keyword
+  - Refers to the current object
+- Static
+  - Belongs to the class rather than any object instance
+  - Can be accessed without creating an instance of the class
+- Access Modifiers
+  - Public
+  - Private
+  - Protected
+- Inheritance
+  - Allows a class to inherit properties and methods from another class
+  - Reusability
+  - Parent/Base class
+  - Child/Derived class
+- super keyword
+  - Refers to the parent class
+  - Used to call the constructor of the parent class
+- Super()
+- Calls the parent class constructor
+- super
+  - Refers to the parent class instance
+- Access Modifiers
+  - Public
+  - Accessible from anywhere
+  - Private
+  - Accessible only within the class
+  - Protected
+  - Accessible within the class and its subclasses
+- Default
+  - Accessible within the same module
+- Readonly
+  - Can be initialized only once and cannot be modified
+- Static
+  - Belongs to the class rather than any object instance
+  - Can be accessed without creating an instance of the class
+- Abstract Class
+  - Cannot be instantiated directly
+  - Can contain abstract methods (without implementation) that must be implemented by subclasses
+- Interface
+  - Defines a contract that classes can implement
+  - Can contain method signatures and properties without implementation
+- Implements
+  - A class can implement multiple interfaces
+  - The class must provide implementations for all methods defined in the interfaces
+- Method Overloading
+  - Multiple methods with the same name but different parameters
+- Constructor Overloading
+  - Multiple constructors with different parameters
+- Method Overriding
+  - A subclass provides a specific implementation of a method already defined in its superclass
+- Abstract Method
+  - A method without implementation in an abstract class that must be implemented by subclasses
